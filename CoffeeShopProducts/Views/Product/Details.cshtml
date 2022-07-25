@@ -1,0 +1,16 @@
+﻿@model Product
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+<style>
+body {
+  background-image: url(https://i.pinimg.com/736x/b8/7c/a4/b87ca4cdc2fac9fba024cd2219e4e7a9.jpg);
+}
+</style>
+<h1>Drink: @Model.Name</h1>
+<h2>Type: @Model.Category</h2>
+<h2>Price: $@Model.Price</h2>
+<p>@Model.Description</p>
+<p>Drink ID: @Model.Id</p>
